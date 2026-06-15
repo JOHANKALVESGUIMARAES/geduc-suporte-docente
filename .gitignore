@@ -1,0 +1,30 @@
+# Dependências — NUNCA subir para o repositório
+node_modules/
+.pnp
+.pnp.js
+
+# Build de produção
+dist/
+dist-ssr/
+
+# Variáveis de ambiente (se usar)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# SO
+.DS_Store
+Thumbs.db
